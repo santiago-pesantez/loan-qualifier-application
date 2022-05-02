@@ -10,9 +10,9 @@ import sys
 import fire
 import questionary
 from pathlib import Path
-import csv
 
 from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -112,18 +112,6 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
-
-def save_csv(csv_path, data):
-    """ Writes a CSV file containing the arg data in the csv_path especified
-
-    Args:
-        csv_path (Path): File path to create the file.
-        data (list): Data that will be written into the csv file.
-    """        
-    with open(csv_path, 'w', newline='') as csv_file:
-        csvwriter = csv.writer(csv_file)
-        for row in data:
-            csvwriter.writerow(row)
 
 def run():
     """The main function for running the script."""
