@@ -1,0 +1,50 @@
+  481  git push
+  482  gh auth login
+  483  git push
+  484  git push
+  485  git add .
+  486  git commit -m "Part 1: Automate the Calculations."
+  487  git push
+  488  git add .
+  489  git commit -m "Part 2: Analyze Loan Data."
+  490  git push
+  491  git add .
+  492  git commit -m "Part 3: Perform Financial Calculations."
+  493  git push
+  494  git add .
+  495  git commit -m "Part 4: Conditionally filter lists of loans."
+  496  git add .
+  497  git status
+  498  git commit -m "Part 5: Save the results."
+  499  git push
+  500  git clone https://github.com/santiago-pesantez/loan-qualifier-application.git
+  501  ls
+  502  cd loan-qualifier-application/
+  503  ls
+  504  git add .
+  505  git commit -m "Create the Project Repo"
+  506  git add .
+  507  git commit -m "Create the Project Repo and Copying the Starter files needed"
+  508  git push
+  509  git add .
+  510  git commit -m "Setting up the app with the starting files."
+  511  git push
+  512  conda activate dev
+  513  pip install questionary
+  514  pip install fire
+  515  consa install fire -c conda-forge
+  516  conda install fire -c conda-forge
+  517  python app.py
+  518  git add .
+  519  git commit -m "Add save_csv function to create a csv file in a path specified."
+  520  git log -5
+  521  q
+  522  git add .
+  523  git commit -m "Move save_csv to fileio.py for better organization and modularization of the code"
+  524  git log -5
+  525  git add .
+  526  git commit -m "Udate the CLI."
+  527  git add .
+  528  git commit -m "Update read.me with project info."
+  529  git push
+  530  history 50 > terminal_history.txt
